@@ -1,16 +1,20 @@
-## Hi there 👋
+## Hi, I'm Siddhi Vinayak 👋
 
-<!--
-**vinayaksiddhi/vinayaksiddhi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am an Electrical & Electronics Engineering student who is learning programming fundamentals and building projects step by step.
 
-Here are some ideas to get you started:
+### 💻 Skills
+- C++
+- HTML
+- Problem Solving
+- Programming Fundamentals
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📂 Projects
+- Beginner C++ programs focusing on logic and conditionals
+- Simple HTML-based web projects
+
+### 🎯 Goal
+To build strong programming foundations and transition into the IT/software domain.
+
+📫 Connect with me:
+- LinkedIn: https://www.linkedin.com/in/siddhi-vinayak-86784a386
+
