@@ -9,7 +9,7 @@ I am an Electrical & Electronics Engineering student who is learning programming
 - Programming Fundamentals
 - CSS
 - JS
-- 
+  
 
 ### 📂 Projects
 - Beginner C++ programs focusing on logic and conditionals
