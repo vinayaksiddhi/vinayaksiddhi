@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#bc8cff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff" />
+      <stop offset="100%" style="stop-color:#bc8cff" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.5" fill="#30363d"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg-gradient)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.3"/>
+  <rect width="1200" height="300" fill="url(#dots)" opacity="0.5"/>
+  
+  <!-- Decorative circuit lines -->
+  <g stroke="#21262d" stroke-width="1" fill="none" opacity="0.6">
+    <!-- Left circuit pattern -->
+    <path d="M 0 150 L 80 150 L 120 110 L 200 110" />
+    <path d="M 0 180 L 60 180 L 100 140 L 180 140" />
+    <path d="M 0 120 L 40 120 L 80 80 L 160 80" />
+    <circle cx="200" cy="110" r="3" fill="#58a6ff" opacity="0.4"/>
+    <circle cx="180" cy="140" r="3" fill="#bc8cff" opacity="0.4"/>
+    <circle cx="160" cy="80" r="3" fill="#58a6ff" opacity="0.3"/>
+    
+    <!-- Right circuit pattern -->
+    <path d="M 1200 150 L 1120 150 L 1080 110 L 1000 110" />
+    <path d="M 1200 180 L 1140 180 L 1100 140 L 1020 140" />
+    <path d="M 1200 120 L 1160 120 L 1120 80 L 1040 80" />
+    <circle cx="1000" cy="110" r="3" fill="#bc8cff" opacity="0.4"/>
+    <circle cx="1020" cy="140" r="3" fill="#58a6ff" opacity="0.4"/>
+    <circle cx="1040" cy="80" r="3" fill="#bc8cff" opacity="0.3"/>
+  </g>
+  
+  <!-- Decorative geometric shapes -->
+  <g opacity="0.08">
+    <rect x="100" y="30" width="60" height="60" rx="8" stroke="#58a6ff" stroke-width="1" fill="none" transform="rotate(15 130 60)"/>
+    <rect x="1020" y="200" width="50" height="50" rx="6" stroke="#bc8cff" stroke-width="1" fill="none" transform="rotate(-20 1045 225)"/>
+    <circle cx="150" cy="250" r="25" stroke="#58a6ff" stroke-width="0.5" fill="none"/>
+    <circle cx="1060" cy="50" r="30" stroke="#bc8cff" stroke-width="0.5" fill="none"/>
+  </g>
+  
+  <!-- Accent line top -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#accent-gradient)" opacity="0.6"/>
+  
+  <!-- Blockchain node dots -->
+  <g filter="url(#glow)" opacity="0.15">
+    <circle cx="300" cy="50" r="2" fill="#58a6ff"/>
+    <circle cx="350" cy="70" r="1.5" fill="#bc8cff"/>
+    <circle cx="280" cy="90" r="1" fill="#58a6ff"/>
+    <line x1="300" y1="50" x2="350" y2="70" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="350" y1="70" x2="280" y2="90" stroke="#bc8cff" stroke-width="0.5"/>
+    
+    <circle cx="900" cy="240" r="2" fill="#bc8cff"/>
+    <circle cx="950" cy="260" r="1.5" fill="#58a6ff"/>
+    <circle cx="880" cy="270" r="1" fill="#bc8cff"/>
+    <line x1="900" y1="240" x2="950" y2="260" stroke="#bc8cff" stroke-width="0.5"/>
+    <line x1="950" y1="260" x2="880" y2="270" stroke="#58a6ff" stroke-width="0.5"/>
+  </g>
+
+  <!-- Code brackets decoration -->
+  <text x="260" y="160" font-family="monospace" font-size="60" fill="#21262d" opacity="0.3">{</text>
+  <text x="910" y="160" font-family="monospace" font-size="60" fill="#21262d" opacity="0.3">}</text>
+
+  <!-- Main text group -->
+  <g text-anchor="middle">
+    <!-- Name -->
+    <text x="600" y="115" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#e6edf3" letter-spacing="1">
+      Siddhi Vinayak
+    </text>
+    
+    <!-- Tagline -->
+    <text x="600" y="155" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="16" fill="#8b949e" letter-spacing="2" font-weight="400">
+      ENGINEERING STUDENT  ·  FULL-STACK DEVELOPER  ·  BLOCKCHAIN EXPLORER
+    </text>
+    
+    <!-- Accent underline -->
+    <rect x="380" y="168" width="440" height="1.5" fill="url(#accent-gradient)" opacity="0.5" rx="1"/>
+    
+    <!-- Tech keywords -->
+    <text x="600" y="200" font-family="'Courier New', monospace" font-size="12" fill="#58a6ff" opacity="0.7" letter-spacing="3">
+      REACT  ·  NODE.JS  ·  SOLIDITY  ·  POSTGRESQL  ·  NEXT.JS
+    </text>
+    
+    <!-- Username -->
+    <text x="600" y="240" font-family="'Courier New', monospace" font-size="13" fill="#484f58" letter-spacing="2">
+      github.com/vinayaksiddhi
+    </text>
+  </g>
+  
+  <!-- Accent line bottom -->
+  <rect x="0" y="298" width="1200" height="2" fill="url(#accent-gradient)" opacity="0.6"/>
+</svg>
