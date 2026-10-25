@@ -303,7 +303,7 @@ I'm actively learning blockchain development with a focus on **Solidity** smart 
 
 ## 🏛️ Experience & Community
 
-**IEEE Computer Society — Technical Team**
+**IEEE  Computational Intelligence Society — Technical Team**
 - Contributed to technical operations and event coordination
 - Built tools for hackathon evaluation workflows (Jury Evaluation Platform)
 - Participated in event planning and team coordination during technical events
