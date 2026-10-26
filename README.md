@@ -22,7 +22,7 @@
 
 I'm an **Electrical & Electronics Engineering** student at **BMS Institute of Technology and Management, Bengaluru**, with a strong pull toward software development.
 
-I build full-stack web applications that address practical problems — jury evaluation platforms for hackathons, alumni networking systems with real-time messaging, and decentralized voting applications on the blockchain. My projects involve authentication flows, role-based access control, database design, real-time features, and smart contract integration — not just tutorial follow-alongs.
+I build full-stack web applications that address practical problems — real-time jury websites for hackathons, alumni networking systems with real-time messaging, and decentralized voting applications on the blockchain. My projects involve authentication flows, role-based access control, database design, real-time features, and smart contract integration — not just tutorial follow-alongs.
 
 Currently, I'm deepening my understanding of **backend architecture**, **Data Structures & Algorithms in C++**, and **Solidity smart contracts**. I'm always looking to collaborate on projects where clean engineering matters more than just shipping fast.
 
@@ -90,21 +90,21 @@ Currently, I'm deepening my understanding of **backend architecture**, **Data St
 
 ## 🚀 Featured Projects
 
-### 🏛️ Jury Evaluation Platform
-> A premium real-time evaluation platform for hackathons, competitions, and jury-based events.
+### 🏛️ SCORE SPHERE — Jury Website
+> A modern real-time jury evaluation and multi-event scoring platform for hackathons, innovation challenges, and project expos.
 
 <table>
   <tr>
     <td width="50%">
-      <strong>What it does:</strong> Enables judges to securely evaluate teams with weighted scoring, while admins monitor progress and reveal rankings through an animated leaderboard experience.
+      <strong>What it does:</strong> Developed with PALS BMSIT, providing secure judge scoring across customizable weighted criteria, real-time admin mission control, automated leaderboard calculations, tiebreaker management, and a cinematic stage finale reveal.
       <br/><br/>
       <strong>Key engineering:</strong>
       <ul>
-        <li>Role-based authentication (Admin & Judge panels)</li>
-        <li>Real-time scoring with draft save & final submission lock</li>
-        <li>Cinematic animated leaderboard reveal with confetti</li>
-        <li>CSV/PDF export, audit logs, and evaluation management</li>
-        <li>PostgreSQL with Prisma ORM for data integrity</li>
+        <li>Role-based access & authentication (NextAuth, bcrypt, protected routes)</li>
+        <li>Personalized judge dashboard with draft saving & final submission lock</li>
+        <li>Real-time admin mission control & hidden dynamic leaderboard</li>
+        <li>Stage-ready cinematic animated finale reveal with podium sequence</li>
+        <li>PostgreSQL (Neon) with Prisma ORM, CSV/PDF report exports & audit logging</li>
       </ul>
     </td>
     <td width="50%">
@@ -116,8 +116,8 @@ Currently, I'm deepening my understanding of **backend architecture**, **Data St
       <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
       <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
       <br/><br/>
-      <strong>Status:</strong> ✅ Deployed<br/>
-      <a href="https://jury-evaluation.vercel.app">🌐 Live Demo</a> · <a href="https://github.com/vinayaksiddhi/jury-evaluation">📂 Source Code</a>
+      <strong>Status:</strong> ✅ Deployed & Live<br/>
+      <a href="https://jury-website.vercel.app">🌐 Live Demo</a> · <a href="https://github.com/vinayaksiddhi/jury-website">📂 Source Code</a>
     </td>
   </tr>
 </table>
@@ -303,16 +303,15 @@ I'm actively learning blockchain development with a focus on **Solidity** smart 
 
 ## 🏛️ Experience & Community
 
-**IEEE  Computational Intelligence Society — Technical Team**
-- Contributed to technical operations and event coordination
-- Built tools for hackathon evaluation workflows (Jury Evaluation Platform)
-- Participated in event planning and team coordination during technical events
-- Developed practical software solutions for real IEEE event requirements
+**PALS BMSIT — Technical Associate** *(May 2026 – Oct 2026)*
+- Architected and built **SCORE SPHERE** ([jury-website](https://github.com/vinayaksiddhi/jury-website)), a modern real-time jury scoring and multi-event evaluation platform
+- Assisted participants with building, troubleshooting, and deploying hackathon projects
+- Implemented real-time admin monitoring, automated leaderboard aggregation, and stage finale reveals
 
-**Hackathon Development**
-- Built and deployed evaluation platforms used during actual events
-- Worked on team coordination tools and registration systems
-- Experience designing scoring criteria, role-based access, and real-time leaderboard systems
+**IEEE Computational Intelligence Society (CIS) — Technical Team**
+- Contributed to technical operations, interactive game development, and event coordination
+- Built tools for hackathon evaluation workflows and participant coordination
+- Developed practical software solutions and promotional visual assets for collegiate technical events
 
 > These are extracurricular and project experiences connected to my engineering studies — not formal employment.
 

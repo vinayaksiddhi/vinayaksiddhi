@@ -4,43 +4,48 @@ Detailed documentation of my projects, their technologies, implementation status
 
 ---
 
-## 1. Jury Evaluation Platform
+## 1. SCORE SPHERE — Jury Website
 
-**Repository:** [vinayaksiddhi/jury-evaluation](https://github.com/vinayaksiddhi/jury-evaluation)  
-**Deployment:** [jury-evaluation.vercel.app](https://jury-evaluation.vercel.app)  
+**Repository:** [vinayaksiddhi/jury-website](https://github.com/vinayaksiddhi/jury-website)  
+**Deployment:** [jury-website.vercel.app](https://jury-website.vercel.app)  
+**Associated With:** PALS BMSIT (May 2026 – Oct 2026)  
 **Status:** ✅ Deployed & Functional
 
 ### Description
-A premium real-time evaluation platform built for hackathons, innovation challenges, startup competitions, project expos, and jury-based events. The platform enables judges to securely evaluate participants while administrators monitor progress and reveal final rankings through a cinematic animated leaderboard.
+A modern real-time jury evaluation and multi-event scoring platform built for hackathons, innovation challenges, startup pitch competitions, project expos, and technical demo days. Developed in collaboration with PALS BMSIT, the platform eliminates chaotic spreadsheets and scoring discrepancies by providing evaluators with an authenticated, criteria-based judging workflow while administrators manage evaluation cycles and unveil final rankings through an animated, cinematic stage experience.
 
 ### Technology Stack
 | Layer | Technologies |
 |-------|-------------|
-| Frontend | Next.js 14+, TypeScript, Tailwind CSS, shadcn/ui, Framer Motion, GSAP |
-| Backend | Next.js API Routes, Prisma ORM |
-| Database | PostgreSQL (Neon Database) |
-| Authentication | NextAuth / Auth.js, bcrypt |
-| Optional Realtime | Socket.io, Pusher, or Supabase Realtime |
+| Frontend | Next.js 14+ (App Router), TypeScript, Tailwind CSS, shadcn/ui, Framer Motion, GSAP, Lucide React |
+| Backend | Next.js API Routes / Route Handlers, Prisma ORM |
+| Database | PostgreSQL (Neon Serverless PostgreSQL) |
+| Authentication | NextAuth / Auth.js, bcrypt password hashing |
+| Typography & Aesthetics | Orbitron, Inter, JetBrains Mono, glassmorphism UI |
 
-### Key Features
-- **Judge Panel:** Secure authentication, assigned participant evaluation, weighted scoring criteria, draft save, final submission lock, progress tracking, evaluation comments, timer support
-- **Admin Panel:** Mission control dashboard, judge progress monitoring, team evaluation overview, hidden live leaderboard, open/close evaluation, lock/unlock leaderboard, arm finale mode, launch finale reveal, CSV/PDF export, evaluation reset, audit logs
-- **Finale Experience:** Cinematic leaderboard reveal, animated ranking transitions, score counter animations, podium reveal, confetti celebration, winner announcement, glitch loading transitions
+### Key Modules & Capabilities
+- **Public & Event Landing:** Event countdown, registered teams count, evaluator metrics, live status pulse, criteria directory, and jury code of conduct.
+- **Judge Portal:** Secure role-based login, isolated team assignment view, 10-criteria rating matrix (1-10 scale), auto-weighted total computation, draft state preservation, submission lock, and qualitative feedback box.
+- **Admin Mission Control:** Real-time evaluator completion tracker, hidden dynamic leaderboard, evaluation window toggling (open/close), formal score tiebreaker resolution, CSV/PDF summary generation, and full audit logging.
+- **Cinematic Finale Reveal:** Stage-ready animated leaderboard with GSAP score count-ups, ranking re-sort animations, top-3 podium reveal, glitch transitions, and particle confetti celebrations.
 
-### Engineering Decisions
-- PostgreSQL with Prisma ORM for complex evaluation queries and data integrity
-- Role-based authentication separating admin and judge experiences
-- Weighted scoring system supporting customizable evaluation criteria
-- Cinematic finale experience using Framer Motion and GSAP for smooth animations
+### The 10 Weighted Evaluation Criteria (10% Each)
+1. **Innovation & Creativity (10%):** Originality and uniqueness of the solution.
+2. **Technical Implementation (10%):** Code architecture, modern stack execution, and code quality.
+3. **Problem Solving (10%):** Effectiveness in resolving the primary core problem.
+4. **User Experience (10%):** Interface polish, usability, accessibility, and navigation design.
+5. **Feasibility & Scalability (10%):** Viability in the real world and sustainable growth roadmap.
+6. **Presentation Skills (10%):** Delivery clarity, slide deck articulation, and live demo quality.
+7. **Effort & Skill (10%):** Technical ambition and engineering difficulty accomplished.
+8. **Time Management (10%):** Completeness of deliverables within the strict hackathon timeframe.
+9. **Learning & Adaptability (10%):** Rapid skill adoption and problem iteration shown during the event.
+10. **Impact & Viability (10%):** Positive social, commercial, or environmental value proposition.
 
-### Known Limitations
-- Real-time features depend on external services (Socket.io/Pusher/Supabase)
-- Currently optimized for single-event operation
-
-### Future Improvements
-- Multi-event management within a single instance
-- Bulk team import from CSV
-- Advanced analytics and evaluation insights
+### Engineering Decisions & Security
+- **PostgreSQL with Prisma ORM:** Relational integrity for foreign key constraints between Judges, Teams, Criteria, and Scores.
+- **Double-Blind Scoring Integrity:** Evaluator scores are confidential and isolated until Admin unlocks the finale leaderboard.
+- **State Guard Rails:** Evaluator submissions are locked once finalized to prevent unauthorized post-submission edits.
+- **Performance:** Optimized client-side bundling with Next.js App Router for instant score input responsiveness.
 
 ---
 
