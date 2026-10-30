@@ -190,35 +190,8 @@ Currently, I'm deepening my understanding of **backend architecture**, **Data St
   </tr>
 </table>
 
----
 
-### 📅 Event Planner
-> A web application for managing events and registrations.
 
-<table>
-  <tr>
-    <td width="50%">
-      <strong>What it does:</strong> An event management system for creating, organizing, and tracking events with registration workflows.
-      <br/><br/>
-      <strong>Key engineering:</strong>
-      <ul>
-        <li>Event creation and management interface</li>
-        <li>Registration tracking workflows</li>
-        <li>Deployed and accessible on the web</li>
-      </ul>
-    </td>
-    <td width="50%">
-      <strong>Built with:</strong><br/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000" />
-      <img src="https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=white" />
-      <br/><br/>
-      <strong>Status:</strong> ✅ Deployed<br/>
-      <a href="https://event-planner-genk.vercel.app/">🌐 Live Demo</a> · <a href="https://github.com/vinayaksiddhi/event_planner">📂 Source Code</a>
-    </td>
-  </tr>
-</table>
-
----
 
 ### 🔐 ProofVault — Document Integrity Platform *(Concept)*
 > A blockchain-backed document verification and integrity platform.
@@ -227,11 +200,11 @@ Currently, I'm deepening my understanding of **backend architecture**, **Data St
 
 **Status:** 🔬 Concept / Early Development
 
----
+
 
 ## 📈 Development Journey
 
-```
+
 2024-present
 │
 ├── Started with C++ fundamentals and algorithmic thinking
@@ -241,11 +214,11 @@ Currently, I'm deepening my understanding of **backend architecture**, **Data St
 ├── Developed real-world evaluation and networking platforms
 ├── Explored Solidity and deployed smart contracts on Hardhat
 └── Currently: Deepening DSA, backend architecture, and Web3
-```
+
 
 I approach learning by building things that work — not by collecting certificates. Each project above represents a real problem I identified and tried to solve with code.
 
----
+
 
 ## 🧠 DSA & Problem Solving
 
