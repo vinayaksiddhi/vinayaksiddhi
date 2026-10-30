@@ -20,7 +20,7 @@
 
 ## 👋 About Me
 
-I'm an **Electrical & Electronics Engineering** student at **BMS Institute of Technology and Management, Bengaluru**, with a strong pull toward software development.
+I'm an **Computer Science Engineering** student at **BMS Institute of Technology and Management, Bengaluru**, with a strong pull toward software development.
 
 I build full-stack web applications that address practical problems — real-time jury websites for hackathons, alumni networking systems with real-time messaging, and decentralized voting applications on the blockchain. My projects involve authentication flows, role-based access control, database design, real-time features, and smart contract integration — not just tutorial follow-alongs.
 
